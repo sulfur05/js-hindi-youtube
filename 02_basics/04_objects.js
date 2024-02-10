@@ -1,5 +1,5 @@
-// const tinderUser = new Object()
-const tinderUser = {}
+// const tinderUser = new Object()  --> singleton object
+const tinderUser = {} //-->non-singleton object
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
@@ -49,7 +49,7 @@ users[1].email
 // console.log(tinderUser);
 
 // console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
+// console.log(Object.values(tinderUser)); --> ARRAY AAYEGA OUTPUT ME
 // console.log(Object.entries(tinderUser));
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
