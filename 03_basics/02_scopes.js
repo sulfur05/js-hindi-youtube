@@ -52,7 +52,7 @@ function addone(num){
 
 
 
-addTwo(5)
-const addTwo = function(num){
+addTwo(5) //--> const wala upar huna zaroori hai!!! --> HOISTING in JS
+const addTwo = function(num){ // -->expression hai ye
     return num + 2
 }
